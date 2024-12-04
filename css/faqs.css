@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #044B78;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #044B78;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    text-align: left;
+}
+
+details {
+    margin: 10px 0;
+}
+
+details summary {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+details p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+details summary:hover {
+    color: #044B78;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 20px;
+}

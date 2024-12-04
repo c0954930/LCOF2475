@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #044B78;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #044B78;
+}
+
+/* Main Content */
+main {
+  display: block;
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+main h1 {
+  color: #044B78;
+  font-size: 2.5rem;
+}
+
+main img {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Specials Page Styles */
+.banner {
+  background-color: #044B78;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.product-of-the-week, .weekly-sales, .customer-guarantee, .reasons-to-buy {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sales-products {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.sales-products div {
+  text-align: center;
+}
+
+.reasons-to-buy ul {
+  list-style-type: square;
+  text-align: left;
+  margin: 10px auto;
+  max-width: 500px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #044B78;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .nav-links a {
+        text-align: left;
+        padding: 10px;
+    }
+
+    .nav-links.show {
+        display: flex;
+        margin-top:30%;
+    }
+}
